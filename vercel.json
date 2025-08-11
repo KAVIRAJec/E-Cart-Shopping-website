@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "cd cd Migration-FE && npm install --force && npm run build",
+  "outputDirectory": "Migration-FE/dist/migration-fe/browser",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.(?:js|css|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ] 
+}
