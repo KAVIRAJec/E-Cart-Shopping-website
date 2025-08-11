@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "cd cd Migration-FE && npm install --force && npm run build",
-  "outputDirectory": "Migration-FE/dist/migration-fe/browser",
+  "buildCommand": "cd Migration-FE && npm install --force && npm run build",
+  "outputDirectory": "Migration-FE/dist/Migration-FE/browser",
   "rewrites": [
     {
       "source": "/(.*)",
