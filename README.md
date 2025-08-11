@@ -1,6 +1,6 @@
 # 🛒 ChienVHShop Migration Project
 
-![Architecture Overview](images/Screenshot%202025-08-11%20at%209.34.31 AM.png)
+![Sample Image](https://raw.githubusercontent.com/KAVIRAJec/E-Cart-Shopping-website/refs/heads/main/Images/Screenshot%202025-08-11%20at%209.34.31%E2%80%AFAM.png)
 
 ## Overview
 This project is a migration of an ASP.NET MVC e-commerce application to a modern .NET Core Web API architecture. It features a clean separation of concerns, PostgreSQL database, Swagger API documentation, and robust business logic.
@@ -9,7 +9,7 @@ This project is a migration of an ASP.NET MVC e-commerce application to a modern
 
 ## 🖥️ Frontend (FR)
 
-- **Technology:** (To be integrated) React, Angular, or Vue (suggested)
+- **Technology:** Angular
 - **Role:** Consumes RESTful APIs from the backend
 - **Features:**
   - Product listing, filtering, and search
